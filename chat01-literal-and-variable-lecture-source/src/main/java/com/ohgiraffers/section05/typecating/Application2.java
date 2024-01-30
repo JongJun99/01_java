@@ -2,6 +2,7 @@ package com.ohgiraffers.section05.typecating;
 
 public class Application2 {
     public static void main(String[] args) {
+        //강제형변환
 
         /*필기.
         * 강제형변환

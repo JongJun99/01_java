@@ -2,6 +2,7 @@ package com.ohgriaffers.section01.method;
 
 public class Application5 {
     public static void main(String[] args) {
+        //return이란 ?
 
         /*메소드 리턴에 대해 이해할 수 있다.
         * return 이란??

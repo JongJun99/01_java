@@ -2,6 +2,7 @@ package com.ohgriaffers.section01.method;
 
 public class Application8 {
     public static void main(String[] args) {
+        //static 메소드 호출
 
         /*static 메소드 호출
         * static이 있는 메소드이건 non-static 메소드이건 동작 흐름은 동일하다.

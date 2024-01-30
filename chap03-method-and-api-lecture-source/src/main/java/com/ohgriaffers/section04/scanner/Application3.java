@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Application3 {
     public static void main(String[] args) {
-        //test
+        //스캐너
 
         /*스캐너 next 메소드들은 입력한 내용을 버퍼로부터 분리해서 읽어온다.
         * 그래서 크게 두 가지 사항을 주의해야 한다.

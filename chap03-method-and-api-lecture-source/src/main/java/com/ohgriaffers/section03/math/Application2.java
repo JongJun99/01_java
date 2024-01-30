@@ -2,6 +2,7 @@ package com.ohgriaffers.section03.math;
 
 public class Application2 {
     public static void main(String[] args) {
+        //난수의 활용
 
         /*난수의 활용 */
         /*(int)(Math.random() 구하려는 난수의 갯수) + 구하려는 난수의 최솟값*/

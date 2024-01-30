@@ -2,6 +2,7 @@ package com.ohgiraffers.section05.typecating;
 
 public class Application4 {
     public static void main(String[] args) {
+        //데이터손실
 
         /*필기. 형변환 사용 시 주의할 점
         * 데이터 손실에 유의해서 사용해야 한다.

@@ -2,6 +2,7 @@ package com.ohgriaffers.section01.method;
 
 public class Application7 {
     public static void main(String[] args) {
+        //매개변수와 리턴값 복합 활용
 
         /*매개변수와 리턴값 복합 활용*/
 

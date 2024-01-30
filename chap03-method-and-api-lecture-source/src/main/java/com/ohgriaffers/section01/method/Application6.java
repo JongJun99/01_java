@@ -2,6 +2,7 @@ package com.ohgriaffers.section01.method;
 
 public class Application6 {
     public static void main(String[] args) {
+        //return 명령어
 
         /*메소드는 항상 마지막에 return 명령어가 존재한다.
         * return은 자신을 호출한 구문으로 복귀하는 것을 의미한다.

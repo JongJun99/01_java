@@ -3,6 +3,7 @@ package com.ohgiraffers.section5.logical;
 public class Appliaction3 {
 
     public static void main(String[] args) {
+        //ADN 연산과 OR 연산의 특징
 
         /*AND 연산과 OR 연산의 특징
         * 논리식 && 논리식 : 앞의 결과가 false이면 뒤를 실행 안함

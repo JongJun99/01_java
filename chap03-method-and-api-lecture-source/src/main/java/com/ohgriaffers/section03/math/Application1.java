@@ -2,6 +2,7 @@ package com.ohgriaffers.section03.math;
 
 public class Application1 {
     public static void main(String[] args) {
+        //API란 ?
 
         /*API란?
         * Application Programming Interface 는 응용프로그램에서 사용할 수 있도록,

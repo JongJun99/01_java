@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Application2 {
     public static void main(String[] args) {
+        //nextLine() , next()
 
         /*
         * nextLine() : 공백을 포함한 한줄을 입력한 위한 개행문자

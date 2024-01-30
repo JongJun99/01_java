@@ -7,6 +7,7 @@ import java.util.Random;
 
 public class Application3 {
     public static void main(String[] args) {
+        //java.util.random 클래스
 
         /*java.util.Random 클래스를 활영하여 난수 발생
         * java.util.Random 클래스의 nextInt() 메소드를 이용한 난수 발생
@@ -19,7 +20,7 @@ public class Application3 {
         int randomNum1 = random.nextInt(10);  //0~9까지의 난수 발생
         System.out.println("0~9의 난수 :" + randomNum1);
 
-        int randomNumber2=random.nextInt(26) + 20     //20~45까지의 난수발생
+        int randomNumber2=random.nextInt(26) + 20;     //20~45까지의 난수발생
         System.out.println("20~45난수 :" + randomNumber2);
 
 

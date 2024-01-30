@@ -3,6 +3,7 @@ package com.ohgiraffers.section06.tenary;
 public class Application1 {
 
     public static void main(String[] args) {
+        //삼항 연산자 , (실습문제)
 
         /*삼항 연산자
         * 자바에서 유일하게 피연산자 항목이 3개인 연산자이다.

@@ -9,6 +9,7 @@ import static com.ohgriaffers.section01.method.Calculator.maxNumberOf;
 
 public class Application2 {
     public static void main(String[] args) {
+        //Import 란 ?
 
         /*임포트란 ?
         * 서로 다른 패키지에 존재하는 클래스를 사용하는 경우,

@@ -3,6 +3,7 @@ package com.ohgiraffers.section5.logical;
 public class Application2 {
 
     public static void main(String[] args) {
+        //논리 연산자의 우선순위
 
         /*논리 연산자의 우선순위
         * && : 1순위

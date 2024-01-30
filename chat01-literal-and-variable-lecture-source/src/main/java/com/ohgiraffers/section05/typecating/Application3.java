@@ -2,6 +2,7 @@ package com.ohgiraffers.section05.typecating;
 
 public class Application3 {
     public static void main(String[] args) {
+        //자동 형변환과 강제 형변환을 이용한 다른 자료형끼리 연산
 
         /*필기.
         * 자동 형변환과 강제 형변환을 이용한 다른 자료형끼리 연산

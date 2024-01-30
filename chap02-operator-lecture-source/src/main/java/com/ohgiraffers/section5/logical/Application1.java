@@ -3,6 +3,7 @@ package com.ohgiraffers.section5.logical;
 public class Application1 {
 
     public static void main(String[] args) {
+        //논리 연산자의 종류
 
 
         /*논리 연산자의 종류

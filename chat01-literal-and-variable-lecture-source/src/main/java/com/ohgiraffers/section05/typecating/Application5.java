@@ -2,6 +2,7 @@ package com.ohgiraffers.section05.typecating;
 
 public class Application5 {
     public static void main(String[] args) {
+        //산술 연산자 종류와 우선순위
 
         /*필기.
          * 산술 연살자

@@ -2,6 +2,7 @@ package com.ohgriaffers.section01.method;
 
 public class Application4 {
     public static void main(String[] args) {
+        //여러 개의 전달인자를 이용한 메소드 호출 테스트
 
         /*여러 개의 전달인자를 이용한 메소드 호출 테스트*/
         Application4 app4 = new Application4();

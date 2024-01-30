@@ -2,6 +2,7 @@ package com.ohgiraffers.section04.comparison;
 
 public class Application1 {
     public static void main(String[] args) {
+        //비교 연산자
 
         /* 필기.
         * 비교 연산자

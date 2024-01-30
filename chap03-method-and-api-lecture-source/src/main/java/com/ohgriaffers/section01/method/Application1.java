@@ -2,6 +2,7 @@ package com.ohgriaffers.section01.method;
 
 public class Application1 {
     public static void main(String[] args) {
+        //메소드 호출 방법
 
         System.out.println("main() 시작됨..");
 

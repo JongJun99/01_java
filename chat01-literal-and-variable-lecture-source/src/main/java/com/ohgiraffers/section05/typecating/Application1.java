@@ -3,6 +3,8 @@ package com.ohgiraffers.section05.typecating;
 public class Application1 {
     public static void main(String[] args) {
 
+        //데이터 형변환
+
         /*필기.
         * 데이터 형변환
         * 데이터 형변환이 필요한 이유

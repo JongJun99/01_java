@@ -2,6 +2,7 @@ package com.ohgriaffers.section01.method;
 
 public class Application3 {
     public static void main(String[] args) {
+        //전달인자(argument)와 매개변수(parameter)를 이용한 메소드 호출
 
         /*전달인자(argument)와 매개변수(parameter)를 이용한 메소드 호출*/
 

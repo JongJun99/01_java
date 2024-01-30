@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Application1 {
     public static void main(String[] args) {
 
+        //java.util.Scanner 를 이용 다양한 자료형 값 입력받기
+
         /*java.util.Scanner 를 이용 다양한 자료형 값 입력받기*/
 
         Scanner sc = new Scanner(System.in);
