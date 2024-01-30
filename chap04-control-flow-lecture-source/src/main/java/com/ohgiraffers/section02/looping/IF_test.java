@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class IF_test {
     public static void main(String[] args) {
+        
 
          /*//실습문제 1
         Scanner sc = new Scanner(System.in);
