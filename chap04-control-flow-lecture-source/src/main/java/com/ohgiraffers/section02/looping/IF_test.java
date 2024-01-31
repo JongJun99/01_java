@@ -1,10 +1,10 @@
-package com.ohgiraffers.section02.looping;
+/*package com.ohgiraffers.section02.looping;
 
 import java.util.Scanner;
 
 public class IF_test {
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) { */
+
 
          /*//실습문제 1
         Scanner sc = new Scanner(System.in);
@@ -59,34 +59,20 @@ public class IF_test {
 
         //실습문제 4
 
-        Scanner sc =new Scanner(System.in);
+        /*Scanner sc =new Scanner(System.in);
         System.out.println("월 급여 입력 :");
         int monthpay = sc.nextInt();
         System.out.println("매출액 입력 :");
-        int monthtotal = sc.nextInt();
+        int monthpay2 = sc.nextInt();
         System.out.println("보너스율 :");
         int bonus = sc.nextInt();
 
+        int total = (int)monthpay + (monthpay2*bonus);//총 급여 계산식
 
-        if (monthtotal>=50000000) {
-            if(bonus*5%)
+        if (monthpay2>=50000000) {
+
+            }
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
-}
+    }*/
