@@ -10,7 +10,8 @@ public class Application {
 
         B_continue b = new B_continue();
 //        b.simpleContinueStatement();
-        b.simpleContinueStatement2();
+//        b.simpleContinueStatement2();
+        b.testJumpContinue();
 
 
     }

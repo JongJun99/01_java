@@ -33,13 +33,6 @@ public class Application_Class {
         int a = sc. nextInt();
         System.out.println(result);
 
-        TestMethod t = new TestMethod();
-
-
-
-
-
-
 
     }
 }
