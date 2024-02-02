@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class A_for {
 
-    /*[for문 표현식]
+    /*[for문 표현식.]
     * for(초기식; 조건식; 증감식) {
     *   조건을 만족하는 경우 수행할 구문(반복할 구문)
     * }*/
