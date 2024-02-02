@@ -19,7 +19,7 @@ public class IF_test {
 
         //실습문제2
         /*Scanner sc =new Scanner(System.in);
-        System.out.println("1~10의 정수를 입력하시오 :");
+        System.out.println("당첨 번호가 어떻게 되세요? :");
         int number = sc.nextInt();
 
         if(number %2 ==0) {
@@ -60,19 +60,58 @@ public class IF_test {
         //실습문제 4
 
         /*Scanner sc =new Scanner(System.in);
+
         System.out.println("월 급여 입력 :");
         int monthpay = sc.nextInt();
+
         System.out.println("매출액 입력 :");
         int monthpay2 = sc.nextInt();
-        System.out.println("보너스율 :");
-        int bonus = sc.nextInt();
 
-        int total = (int)monthpay + (monthpay2*bonus);//총 급여 계산식
+        double bonus = 0;
+        int total = 0;
 
-        if (monthpay2>=50000000) {
+        if(monthpay2 >= 50000000) {
+            bonus = 0.05;
+        } else if(monthpay2 >= 30000000) {
+            bonus = 0.03;
+        } else if(monthpay2 >= 10000000) {
+            bonus = 0.01;
+        } else {
+            bonus = 0;
+        }
+
+        totalSalary = monthpay + (int)(monthpay2 * bonus);
+        System.out.println("======================");
+        System.out.println("매출액 : " + monthpay2);
+        System.out.println("보너율 : " + (bonus * 100) + "%");
+        System.out.println("월 급여 : " + monthpay);
+        System.out.println("보너스 금액 : " + (int)(bonus * monthpay2));
+        System.out.println("======================");
+        System.out.println("총 급여 : " + total);
+
+
+
+        반복문 실습문제1
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("정수를 입력하세요 : ");
+        int num = sc.nextInt();
+
+        int sum = 0;
+
+        for(int i = 0; i <= num; i++) {
+            if(i % 2 == 0) {
+                sum += i;
 
             }
         }
+        System.out.println("1부터 10까지 짝수의 합 :" + sum )
+
+
+
+
+
+
 
 
     }*/
