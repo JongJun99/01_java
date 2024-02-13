@@ -29,7 +29,7 @@ public class pratice3 {
 
             }
         }
-        System.out.println("오름차순 출력 값 :" + array.toString());
+        System.out.println("오름차순 출력 값 :" + array);
 
 
     }
