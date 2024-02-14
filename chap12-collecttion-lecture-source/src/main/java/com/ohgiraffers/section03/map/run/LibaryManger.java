@@ -43,7 +43,7 @@ public class LibaryManger {
         if(bList[index] instanceof AniBook){
             AniBook aniBook = (AniBook)bList[index];
         }
-        if(mem.getAge())
+        if()
 
     }
 
