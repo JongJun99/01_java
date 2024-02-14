@@ -43,8 +43,19 @@ public class LibaryManger {
         if(bList[index] instanceof AniBook){
             AniBook aniBook = (AniBook)bList[index];
         }
-        if()
+        if(mem.getAge() < AniBook.getAccessAge()) {
+            result = 1;
+        }
+        else if(bList[index] instanceof CookBook){
+            CookBook cookBook = (CookBook)bList[index];
+        }
+        if(CookBook.iscoupon){
+            mem.setCouponCount(mem.getCouponCount() + 1);
+        }
+        result = 2;
+        return result;
 
     }
+
 
 }

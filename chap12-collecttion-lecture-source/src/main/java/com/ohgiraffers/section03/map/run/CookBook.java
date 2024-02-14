@@ -1,6 +1,7 @@
 package com.ohgiraffers.section03.map.run;
 
 public class CookBook extends Book{
+    public static boolean iscoupon;
     private boolean coupon;
     public CookBook(){}
     public CookBook(String title, String author, String publisher, boolean coupon ){

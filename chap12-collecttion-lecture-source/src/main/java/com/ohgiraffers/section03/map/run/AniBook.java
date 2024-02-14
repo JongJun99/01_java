@@ -10,7 +10,7 @@ public class AniBook extends Book{
     }
 
     //getter
-    public int getAccessAge() {
+    public static int getAccessAge() {
         return accessAge;
     }
 
