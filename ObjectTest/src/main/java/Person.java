@@ -62,6 +62,8 @@ public class Person {
             }
         }
     }
+
+
     /*강아지 이름을 입력받고 입력받은 이름을 속성으로 강아지 객체 생성하여
     * 이 사람의 강아지로 설정 */
     public void adoptpuppy(){
@@ -76,12 +78,32 @@ public class Person {
         System.out.println("강아지의 이름은 " + puppyName + " 입니다.");
     }
 
+
     public void teachingpuppy(String[] active) {
         /*내 강아지의 재주 설정 */
             this.puppy.setJeju(active);
+        }
 
 
+    public void orderTopuppy(String something){
+        /*1. void 메소드 출력
+        * 2. puppy 메소드를 String으로 변경하여 출력
+        * 출력예시( black 앉아를 할 수 있어요 or black 짖어!를 배우지 않았어요
+        * 3. puppy메소드를 boolean변경하여 출력
+        * 출력예시) black이 앉아 를 배웠어요 or black이 짖어를 할 수 없어요*/
+        if(puppy != null){
+            puppy.dosomeThingvoid(something);
+            String result = puppy.dosomeThing(something);
+            System.out.println(result);
 
+            boolean sbw = puppy.BooleanDoSomeThing(something);
+            if(sbw){
+                System.out.println(puppy.getName() + "이" + " " + something + "를 배웠어요");
+            }else {
+                System.out.println(puppy.getName() + "이" + " " + something + " 할 수 없어요 ");
+            }
         }
     }
+    }
+
 

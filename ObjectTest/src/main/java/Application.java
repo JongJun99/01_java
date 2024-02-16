@@ -9,14 +9,20 @@ public class Application {
         *
         * 4. 강아지에게 재주 가르치기 ->사람이 할 수 있는 일
         *    (=Person의 매개변수가 있는 메소드를 호출해서 puppy의 ability 추가)
-        *     String[] teaching = new String[] {"앉아", "빵!!", "기다려"*/
+        *     String[] teaching = new String[] {"앉아", "빵!!", "기다려"
+        *
+        * 5. 강아지에게 재주 시키기 -> 사람이 할 수 있는 일 (=Person의 메소드)
+        *   1)강아지에게 재주를 시키면 어떤 재주를 시킬지 입력받는다 (=Person의 메소드 호출)
+        *   2)입력받은 재주를 강아지가 하도록 시킨다. (=Person의 메소드 동작 내용)
+        *   3)강아지는 할 수 있는 재주면 해당 재주를 출력하고 그렇지 않으면 아직 못배운 재주예요 를 출력한다.(=puppy의 메소드 동작내용)*/
 
         Person ps = new Person("박종준", 25);
         ps.setCountry("홍콩");
         ps.adoptpuppy();
 
-        String[] teachingAbility = new String[]{"앉아", "빵!", "기다려"};
+        String[] teachingAbility = new String[]{"앉아", "빵!!", "기다려"};
         ps.teachingpuppy(teachingAbility);
+        ps.orderTopuppy("빵!!");
 
 
     }
